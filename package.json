@@ -1,0 +1,29 @@
+{
+  "name": "current-ios-app-version",
+  "version": "0.0.0",
+  "description": "Get current app version from app store",
+  "license": "MIT",
+  "repository": "JonnyBurger/current-ios-app-version",
+  "author": {
+    "name": "Jonny Burger",
+    "email": "jonathanburger11@gmail.com",
+    "url": "jonny.io"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "xo": "^0.17.0"
+  }
+}
