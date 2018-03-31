@@ -36,6 +36,10 @@ Type: `string`
 
 The app bundle id of the app you'd like to query. [How can I find my app bundle id?](https://pspdfkit.com/guides/ios/current/faq/finding-the-app-bundle-id/)
 
+## See also
+
+- [current-android-app-version](https://github.com/JonnyBurger/current-android-app-version): Get current Android app version from Play Store
+
 
 ## License
 
