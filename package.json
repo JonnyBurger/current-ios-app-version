@@ -1,6 +1,6 @@
 {
   "name": "current-ios-app-version",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get current app version from app store",
   "license": "MIT",
   "repository": "JonnyBurger/current-ios-app-version",
