@@ -21,7 +21,10 @@
   "keywords": [
     ""
   ],
-  "dependencies": {},
+  "dependencies": {
+    "got": "^8.3.0",
+    "semver": "^5.5.0"
+  },
   "devDependencies": {
     "ava": "^0.17.0",
     "xo": "^0.17.0"

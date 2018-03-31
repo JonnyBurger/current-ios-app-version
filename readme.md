@@ -1,6 +1,6 @@
-# current-ios-app-version [![Build Status](https://travis-ci.org/JonnyBurger/current-ios-app-version.svg?branch=master)](https://travis-ci.org/JonnyBurger/current-ios-app-version)
+# current-ios-app-version
 
-> Get current app version from app store
+> Get current app version from App Store
 
 
 ## Install
@@ -15,29 +15,26 @@ $ npm install --save current-ios-app-version
 ```js
 const currentIosAppVersion = require('current-ios-app-version');
 
-currentIosAppVersion('unicorns');
-//=> 'unicorns & rainbows'
+currentIosAppVersion('1058948091')
+.then(version => {
+  // version => 2.16.2
+})
+.catch(err => {
+  // err => App ID not found
+})
 ```
 
 
 ## API
 
-### currentIosAppVersion(input, [options])
+### currentIosAppVersion(appBundleId)
+Returns: `Promise`
 
-#### input
+#### appBundleId
 
 Type: `string`
 
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
+The app bundle id of the app you'd like to query. [How can I find my app bundle id?](https://pspdfkit.com/guides/ios/current/faq/finding-the-app-bundle-id/)
 
 
 ## License

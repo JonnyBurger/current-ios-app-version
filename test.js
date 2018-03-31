@@ -1,9 +1,8 @@
 import test from 'ava';
+import semver from 'semver';
 import fn from '.';
 
-test('title', t => {
-	const err = t.throws(() => fn(123), TypeError);
-	t.is(err.message, 'Expected a string, got number');
-
-	t.is(fn('unicorns'), 'unicorns & rainbows');
+test('title', async t => {
+	const appVersion = await fn('1058948091');
+	t.is(semver.valid(appVersion), appVersion);
 });
